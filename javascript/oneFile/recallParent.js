@@ -19,25 +19,25 @@ class User {
   }
   
   get admin() {
-    return new Admin(this);
+    return new UserAdmin(this);
   }
   
   get inventory() {
-    return new Inventory(this);
+    return new UserInventory(this);
   }
   
   static get default() {
     return {
       id: "", // UUID - database won't allow this if it already exists
       admin: Admin.default,
-      inventory: Inventory.default
+      inventory: UserInventory.default
     }
   }
 }
 
 class UserAdmin {
   /**
-   * @param {import('./User')}
+   * @param {User} user
    */
   constructor(user) {
     this.user = user;
@@ -54,7 +54,7 @@ class UserAdmin {
 
 class UserInventory {
   /**
-   * @param {import('./User')}
+   * @param {User} user
    */
   constructor(user) {
     this.user = user;

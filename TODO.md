@@ -1,0 +1,26 @@
+## Languages
+
+- [ ] JavaScript
+- [ ] Go
+- [ ] Swift
+- [ ] TypeScript
+- [ ] Rust
+- [ ] Kotlin
+- [ ] Python
+- [ ] PHP
+- [ ] Julia
+- [ ] Ruby
+- [ ] CoffeeScript
+- [ ] Elixir
+- [ ] Crystal
+- [ ] Scala
+- [ ] C#
+- [ ] F#
+- [ ] VB
+- [ ] Nim
+- [ ] Haskell
+- [ ] Racket
+- [ ] Livescript?
+- [ ] C
+- [ ] C++
+- [ ] Java
