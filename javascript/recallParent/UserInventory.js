@@ -9,6 +9,11 @@ class UserInventory {
   get data() {
     this.user.data.inventory;
   }
+  
+  static from(id) {
+    let User = require('./User'); // WARNING: Can cause reference error as recursive is possible.
+    return new User(id).inventory;
+  }
     
   /**
    * @param {UserInventory.default}
